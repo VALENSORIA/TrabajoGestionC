@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #111;
+    border: 2px solid #0f0;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #0f0;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f0;
+    border: none;
+    color: #000;
+    font-family: "Courier New", monospace;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+    border: 2px solid #0f0;
+    border-radius: 10px;
+  }
+  
