@@ -30,6 +30,11 @@ function encriptarNumero(event) {
     digitos[0] = digitos[2];
     digitos[2] = temp;
   
+    // Intercambiar el segundo dígito con el cuarto
+    temp = digitos[1];
+    digitos[1] = digitos[3];
+    digitos[3] = temp;
+  
     
   }
   
