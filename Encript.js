@@ -25,6 +25,11 @@ function encriptarNumero(event) {
       digitos[i] = digito.toString();
     }
   
+    // Intercambiar el primer dígito con el tercero
+    var temp = digitos[0];
+    digitos[0] = digitos[2];
+    digitos[2] = temp;
+  
     
   }
   
