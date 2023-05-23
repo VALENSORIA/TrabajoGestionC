@@ -38,5 +38,9 @@ function desencriptarNumero(event) {
       digitos[i] = digito.toString();
     }
   
-    
+    // Obtener el número desencriptado
+    var numeroDesencriptado = digitos.join("");
+  
+    // Mostrar el número desencriptado en el elemento de resultado
+    document.getElementById('resultado').innerHTML = "Número desencriptado: " + numeroDesencriptado;
   }
