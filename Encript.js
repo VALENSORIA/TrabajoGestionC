@@ -13,6 +13,18 @@ function encriptarNumero(event) {
     // Convertir el número en un arreglo de dígitos
     var digitos = numero.split("");
   
+    // Aplicar la encriptación a cada dígito
+    for (var i = 0; i < digitos.length; i++) {
+      var digito = parseInt(digitos[i]);
+  
+      // Reemplazar cada dígito con el residuo de la división entre 10 de la suma de dicho dígito más 7
+      digito = digito + 7;
+      digito = digito % 10;
+  
+      // Actualizar el dígito en la matriz de dígitos
+      digitos[i] = digito.toString();
+    }
+  
     
   }
   
