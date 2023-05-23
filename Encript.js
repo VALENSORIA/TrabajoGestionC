@@ -41,4 +41,6 @@ function encriptarNumero(event) {
     // Mostrar el número encriptado en el elemento de resultado
     document.getElementById('resultado').innerHTML = "Número encriptado: " + numeroEncriptado;
   }
-  
+
+
+ 

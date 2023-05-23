@@ -7,15 +7,23 @@
   <h2>Formulario de Números</h2>
   
   <form onsubmit="encriptarNumero(event)">
-    <label for="numero">Ingrese un número de 4 dígitos:</label>
+    <label for="numero">Ingrese un número de 4 dígitos :</label>
     <input type="number" id="numero" name="numero" required pattern="[0-9]{4}" title="Ingrese un número de 4 dígitos">
     <br><br>
     
     <input type="submit" value="Encriptar">
+    <script src="Encript.js"></script>
+  </form>
+  <form onsubmit="desencriptarNumero(event)">
+    <label for="numeroEncriptado">Ingrese un número encriptado de 4 dígitos:</label>
+    <input type="number" id="numeroEncriptado" name="numeroEncriptado" required pattern="[0-9]{4}" title="Ingrese un número encriptado de 4 dígitos">
+    <br><br>
+    
+    <input type="submit" value="Desencriptar">
   </form>
 
   <div id="resultado"></div>
 
-  <script src="Encript.js"></script>
+  <script src="Desencript.js"></script>
 </body>
 </html>
