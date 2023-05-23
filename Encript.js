@@ -10,6 +10,9 @@ function encriptarNumero(event) {
       return;
     }
   
+    // Convertir el número en un arreglo de dígitos
+    var digitos = numero.split("");
+  
     
   }
   
