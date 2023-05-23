@@ -14,5 +14,10 @@ function desencriptarNumero(event) {
     // Convertir el número encriptado en un arreglo de dígitos
     var digitos = numeroEncriptado.split("");
   
+    // Intercambiar el primer dígito con el tercero (deshacer el intercambio de la encriptación)
+    var temp = digitos[0];
+    digitos[0] = digitos[2];
+    digitos[2] = temp;
+  
     
   }
