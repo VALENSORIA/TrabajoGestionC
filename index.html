@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Encriptador y Desencriptador</title>
+  <title>Formulario de Números</title>
 </head>
 <body>
-  <h2>Encriptador y Desencriptador</h2>
+  <h2>Formulario de Números</h2>
   
-  <form onsubmit="guardarNumero(event)">
-    <label for="numero">Ingrese un número:</label>
-    <input type="number" id="numero" name="numero" required>
+  <form onsubmit="encriptarNumero(event)">
+    <label for="numero">Ingrese un número de 4 dígitos:</label>
+    <input type="number" id="numero" name="numero" required pattern="[0-9]{4}" title="Ingrese un número de 4 dígitos">
     <br><br>
     
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Encriptar">
   </form>
 
   <div id="resultado"></div>
